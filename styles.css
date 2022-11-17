@@ -64,7 +64,7 @@ footer {
     width: 35vw;
     text-align: center;
     margin-bottom: 10px;
-    font-size: 0.8em;
+    font-size: 0.8rem;
 }
 
 .footer-link {
@@ -85,4 +85,60 @@ footer {
 
 .italic1{
     font-style: italic;
+}
+
+.form1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form1 > p {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 3% 0 0 5%;
+}
+
+.flexible {
+    padding: 2% 5% 2% 5%;
+    display: flex;
+    gap: 9%;
+}
+
+.flexible ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    margin: 5% 0%;
+}
+
+label {
+    display: block;
+    letter-spacing: 0.1rem;
+    font-size: 0.6rem;
+    font-weight: 600;
+    margin-bottom: 0.1rem;
+}
+
+input {
+    padding: 2% 4%;
+    font-size: 0.8rem;
+    width: 220px;
+    border-radius: 3px;
+    border: 1px solid #E5E7EB;
+}
+
+input:focus {
+    border-color: blue;
+    box-shadow: 3px 3px 5px #d0d8e7;
+}
+
+.error {
+    border-color: red;
+}
+
+input:invalid {
+    border-color: red;
+    box-shadow: 3px 3px 5px #d0d8e7;
 }
