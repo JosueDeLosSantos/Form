@@ -28,7 +28,7 @@
                 </p>
                 <p>You <span class="italic1">know</span> you want to.</p>
         </section>
-        <section class="form1">
+        <form class="form1" id="main-form" method="post">
             <p>Let's do this!</p>
             <div class="flexible">
                 <div class="col1">
@@ -64,8 +64,13 @@
                     </ul>
                 </div>
             </div>
+        </form>
+        <section class="form2">
+            <form form="main-form" method="post">
+                <button type="submit">Create Account</button>
+            </form>
+            <p>Already have an account? <span class="log-in">Log in</span></p>
         </section>
-        <section class="form2"></section>
     </main>
     
 </body>

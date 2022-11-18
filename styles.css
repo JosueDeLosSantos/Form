@@ -17,6 +17,7 @@
 body {
     display: flex;
     padding: 0;
+    background-color: rgb(249 250 251);
 }
 
 aside {
@@ -73,7 +74,6 @@ footer {
 
 .message {
     height: 37vh;
-    background-color: rgb(249 250 251);
     display: flex;
     flex-direction: column;
     justify-content:space-between;
@@ -89,12 +89,15 @@ footer {
 
 .form1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 3px 5px 5px rgb(231 232 233);
+    background-color: white;
+    padding-top: 3%;
 }
 
 .form1 > p {
     font-weight: 600;
     font-size: 1.1rem;
-    margin: 3% 0 0 5%;
+    margin: 0% 0 0 5%;
 }
 
 .flexible {
@@ -141,4 +144,31 @@ input:focus {
 input:invalid {
     border-color: red;
     box-shadow: 3px 3px 5px #d0d8e7;
+}
+
+.form2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px 40px;
+    height: 22.5vh;
+}
+
+.log-in{
+    color: #596D48;
+    font-weight: 600;
+}
+
+.form2 p {
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
+
+.form2 button {
+    background-color: #596D48;
+    color: white;
+    font-weight: 600;
+    font-size: 0.8rem;
+    padding: 1.5% 7%;
+    border-color: #596D48;
+    border-width: 0px;
+    border-radius: 5px;
 }
